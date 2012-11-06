@@ -1,0 +1,129 @@
+<head>
+  <title>griddy</title>
+</head>
+
+<body>
+	<header class="block">
+		{{> header}}
+	</header>
+  {{> body}}
+  <footer>
+ 	{{> footer}}
+  </footer>
+</body>
+
+<template name="body">
+	<div id="wrapper">
+
+		<section id="home">
+			<div id="logo" class="block">
+				{{> logo}}
+			</div>
+				<div id="about" class="block">
+				{{> about}}
+			</div>
+			<div id="philosophy" class="block">
+				{{> philosophy}}
+			</div>
+		</section>
+		<section id="studio-work">
+		
+			<div id="studio" class="block">
+				{{> studio}}
+			</div>
+
+			<div id="work" class="block">
+				{{> work}}
+			</div>
+			<div id="video" class="block">
+				{{> video}}
+			</div>
+		</section>
+	</div>
+</template>
+
+<template name="header">
+	<a href="#">Home</a>
+	<a href="#">About</a>
+	<a href="#">Philosophy</a>
+	<a href="#">Studio</a>
+	<a href="#">Work</a>
+	<a href="#">Talent</a>
+	<a href="#">Contact</a>
+</template>
+
+<template name="footer">
+	<img src="	http://www.twodogsmedia.ca/images/contacttitle.png" />
+	<p>
+		We’re looking forward to hearing from you and making your productions perfect. 
+
+		You can find us here:
+	</p>
+	<p>
+		Two Dogs Media
+		55 University Avenue Suite 902 Toronto, Ontario 
+		M5J 2H7	info@twodogsmedia.ca
+		ph: 416-762-9979
+		fax: 416-762-8767
+	</p>
+		<p>
+		Or follow us here:
+	Facebook | Twitter | Youtube
+	</p>
+</template>
+
+<template name="logo">
+	<img src="http://www.twodogsmedia.ca/images/logo2.png" />
+</template>
+
+<template name="about">
+	<img src="http://www.twodogsmedia.ca/images/abouttitle.png" />
+
+	<p>Founded in 2005, we began serving the video and media production needs of businesses as Two Dogs Film and Video Production. 
+
+	In 2010, we expanded our services and became Two Dogs Media. While our name changed, our goal has remained the same: to strive to provide the very best product to our clients with a guarantee that we will deliver your media on time and at a reasonable price.
+	</p>
+</template>
+
+<template name="philosophy">
+	<img src="http://www.twodogsmedia.ca/images/philosophytitle.png" />
+
+	<p>We love our clients. And we respect their budgets.
+
+	Video content is more in demand than ever. Businesses are beginning to recognize that clients expect to see them rather than read about them. High quality production values are now more readily available to consumers and the demand for better equipment has driven down technology prices.
+
+	So why are so many production houses still charging businesses thousands of dollars for small projects?
+
+	At Two Dogs Media, we believe that the project should dictate the price. That’s why we’ve built a state of the art studio in on the P.A.T.H in Toronto. Our webcasting studio allows us to drive down the price of your regular web updates and to reduce the time and cost that comes from setting-up and shooting in your boardrooms. Your executives and keynote speakers are just steps away from our studio and we are specialists at fast turnaround and superb video quality.
+
+	We want to partner with you. Our philosophy is simple:  We provide our clients with excellent service and high production quality at a reasonable price. We’re the small studio with big promises and we will deliver on all of them.
+	</p>
+</template>
+<template name="video">
+	<iframe src="http://player.vimeo.com/video/23237102?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+</template>
+<template name="work">
+	<img src="http://www.twodogsmedia.ca/images/worktitle.png" />
+	<p>
+	Two Dogs Media is not only about webcasts. We’ve completed projects large and small from commercials and documentaries to training and promotional videos. Whatever the size, we bring professionalism and top notch talent to ensure that your projects looks great.
+	</p>
+</template>
+<template name="talent">
+	<img src="http://www.twodogsmedia.ca/images/talenttitle.png" />
+	<p>
+	Two Dogs Media only employs the very best talent. Each of our team hold degrees in broadcasting and film studies. We’re confident that each member could shepherd your production from start to finish.
+
+	But, it’s the dedication to the craft that sets our team apart. Each of us pride ourselves on bringing creativity and confidence to every project. None of us are satisfied until our client is thrilled with their final product.
+	</p>
+</template>
+
+<template name="studio">
+	<img src="http://www.twodogsmedia.ca/images/studiotitle.png" />
+	<p>Opened in January 2012, our studio is dedicated to webcasting and other small projects like interviews, keynotes and market updates. Currently our equipment is the most up-to-date broadcast quality gear available. Since our studio is greenscreen equipped, we can put your subject  anywhere on the planet or right next to your logo.
+
+	Because everything is located in one place, we can promise fast turnaround time so your market update can be on your site in a few hours or less. And, since our studio is located on the P.A.T.H. in downtown Toronto, you will have easy access in all weather. This is especially convenient if you have a busy keynote to which travel to another studio is out of the question.</p>
+</template>
+
+<template name="something">
+	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+</template>

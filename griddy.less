@@ -1,0 +1,161 @@
+@off-white: #FFFDF8;
+@grey: #DFDBD6;
+@large-width: 706px;
+@large-height: 355px;
+@medium-width: 345px;
+@medium-height: 285px;
+@border: 4.5px solid black;
+@special-width: 500px;
+
+@font-face {
+  font-family: 'MuseoSans100';
+  src: url('MuseoSans-100.otf');
+  font-style: normal;
+}
+
+.bordered-box{
+	border: 4.5px solid black;
+	padding: 5px;
+	position: relative;
+	float:left;
+	img{
+		margin: 10px;
+	}
+}
+html{
+	background: @off-white;
+	height: 100%;
+
+	body{
+		margin: 0;
+
+		div {
+			display:block;
+			background: @off-white;
+		}
+
+		a{
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-decoration: none;
+			color: black;
+			margin: 15px;
+			&:hover{
+				color: blue;
+			}
+		}
+
+		section{
+			width:720px;
+			float:left;
+			height: auto;
+			position: relative;
+		}
+
+		#studio-work{
+			width: 900px;
+			height: auto;
+		}
+
+		#wrapper{
+			width:2800px;
+			float:left;
+			position: relative;
+		}
+
+		p{
+			font-family: "MuseoSans100";
+			font-size: 0.875em;
+			line-height: 1.8em;
+			font-weight: light;
+			margin: 10px 0 0;
+			vertical-align: middle;
+			display: table-cell;
+			padding: 10px;
+		}
+
+		header{
+			text-align: center;
+			position: relative;
+			width:100%;
+			height: auto;
+			padding: 30px 0;
+			border-bottom: 4px solid #291E13;
+			background: #8181F7;
+			a{
+				display: inline-block;
+			}
+		}
+
+
+		footer{
+			background: #D0F5A9;
+			width: 100%;
+			p{
+				width: 400px;
+				margin: 0;
+				padding: 0 10px;
+			}
+			.bordered-box
+		}
+
+		.block {
+			.bordered-box
+		}
+
+		#studio{
+			height: auto;
+			width: @medium-width;
+			border-top: none;
+			border-left: @border;
+			border-bottom: none;
+		}
+
+		#logo{
+			border: none;
+			border-left: @border;
+			height: @medium-height;
+			width: @medium-width;
+			margin: 0 auto;
+			img{
+				height: 300px;
+				width: 300px;
+				display: block;
+				margin-bottom: 0;
+			}
+				
+		}
+
+		#about{
+			height: @medium-height;
+			width: @medium-width;
+			border: none;
+			border-left: @border;
+		}
+
+		#work{	
+			width: @special-width;
+			height: auto;
+			border-top: none;
+			border-left: none;
+		}
+
+		#philosophy{
+			width: @large-width;
+		 	height: auto;
+		 	border-bottom: none;
+		}
+
+		#something{
+			float:right;
+		}
+
+		#video{
+			height: @medium-height;
+			width: @special-width;
+			border-top: @border;
+			border-bottom: none;
+			clear:both;
+		}
+
+	}
+}
